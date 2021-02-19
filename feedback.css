@@ -1,0 +1,67 @@
+body{
+	color : black ;
+	background-color: rgb(245,133,133);
+}
+ body,
+ html {
+     height: 100%;
+     margin top: 50px;
+     margin bottom : 100px;
+ }
+ #heading{
+ 	text-align: center;
+ }
+ .container{
+	
+	 font-size: 25;
+     border: 3px solid #f1f1f1;
+     border-radius: 5px;
+     box-shadow: 0 0 9px 4px black;
+     display:block;
+     margin-left: 400px;
+     margin-right: 400px;
+     margin-bottom:100em;
+     margin-top: 55px;
+    position: absolute;
+  	padding: 16px;
+ 	background-color: rgb(60%,40%,40%);
+ }
+  button {
+     background-color: #660000;
+     color: white;
+     padding: 12px 18px;
+     margin: 8px 10px 8px 10px;
+     border: none;
+     cursor: pointer;
+     font-size: large;
+     width: 95%;
+     align-self: center;
+ }
+  button:hover {
+     opacity: 0.8;
+     background-color: green;
+ }
+   form #heading {
+  	font-family: garamond,serif;
+    text-align: center;
+    white-space: nowrap;
+ }
+  input[type="text"],input[type="email"]{
+ 	width: 60%;
+  	padding: 15px;
+ 	margin: 5px 0 22px 0;
+  	border-radius: 3px; 
+  	background: #ffcccc;
+ }
+ #suggestions,#experience{
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px; 
+	background: #ffcccc;
+ }
+ #disclaimer{
+ 	font-family: georgia,serif;
+ 	font-size:20;
+ 	text-align: center;
+ 	margin-right: 30px;
+
+ }
