@@ -1,0 +1,16 @@
+body{
+	color : black ;
+	background-color: rgb(245,133,133);
+}
+ #image1,#image2{
+ 	display: inline;
+ 	margin-top:105px;
+ 	float:right;
+ 	height:700px;
+ 	width:600px;
+ 	display:flex;
+ 	border: 2px solid black;
+    border-radius: 0;
+    box-shadow: 0 0 10px 4px black;
+    margin-right: 100px;
+ }
