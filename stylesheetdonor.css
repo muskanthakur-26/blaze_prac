@@ -41,21 +41,7 @@ body{
 		margin-top: 300px;
 		margin-left: 150px;
 	}
-	.footer
-   {
-    padding: 30px;
-    margin-inline: 20px;
-    
-    background-image: linear-gradient(rgb(248, 209, 209), rgb(247, 190, 190));
-    display:inline-block;
-    font-size: 30px;
-    text-align: center;
-    height: 80px;
-    width: 100%;
-    border-radius: 15px;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: bold;
-}
+	
 	.navbar a{
 	   color: white;
    margin-inline: 1%;
@@ -153,4 +139,18 @@ input[type="radio"]{
 	font-size: 40;
 	margin-left: 600px;
 	text-align: center;
+}
+.footer
+   {
+    padding: 30px;
+    margin-inline: 20px;
+    background-image: linear-gradient(rgb(248, 209, 209), rgb(247, 190, 190));
+    display:inline-block;
+    font-size: 30px;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    border-radius: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
 }
