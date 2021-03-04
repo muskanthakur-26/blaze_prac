@@ -1,6 +1,10 @@
 <?php
+$server= "localhost";
+$username="root";
+$password="";
+$dbname="donor_form";
 
-$con =mysqli_connect('127.0.01','root','');
+$conn =mysqli_connect($server,$username,$password,$dbname);
 
 if(!$con)
 {
@@ -17,7 +21,7 @@ $Blood_Group=$_POST['group'];
 $Blood_Bank=$_POST['banks'];
 $Mobile_No=$_POST['mobile'];
 
-$sql="INSERT INTO donor_prac (Name,  BLOOD GROUP,BLOOD BANK, MOBILE NUMBER ) VALUES ('$Name,$Blood_Group,$Blood_Bank,$Mobile_No')";
+$sql="INSERT INTO donor_prac(Name,  BLOOD GROUP,BLOOD BANK, MOBILE NUMBER ) VALUES ('$Name,$Blood_Group,$Blood_Bank,$Mobile_No')";
 
 if(!mysqli_query($con,$sql))
 {
