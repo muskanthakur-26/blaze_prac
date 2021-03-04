@@ -141,7 +141,7 @@ input[type="radio"]{
 	text-align: center;
 }
 .footer
-   {
+   { margin-top: 110%;
     padding: 30px;
     margin-inline: 20px;
     background-image: linear-gradient(rgb(248, 209, 209), rgb(247, 190, 190));
@@ -149,7 +149,7 @@ input[type="radio"]{
     font-size: 30px;
     text-align: center;
     height: 80px;
-    width: 100%;
+    width: 90%;
     border-radius: 15px;
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;

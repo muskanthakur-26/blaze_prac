@@ -1,11 +1,9 @@
 body{
 	color : black ;
 	background-color: rgb(245,133,133);
+  font-family: montserrat;
 }
-body {
-   font-family: montserrat;
-    
-   }
+
    .logo{  
        position: absolute;
        left: 4%;
@@ -18,7 +16,6 @@ body {
    {
     padding: 30px;
     margin-inline: 20px;
-    
     background-image: linear-gradient(rgb(248, 209, 209), rgb(247, 190, 190));
     display:inline-block;
     font-size: 30px;
@@ -76,9 +73,9 @@ body {
      border-radius: 5px;
      box-shadow: 0 0 9px 4px black;
      display:block;
-     margin-left: 500px;
-     margin-right: 500px;
-     margin-bottom:100em;
+     margin-left: 300px;
+     margin-right: 300px;
+     
      margin-top: 55px;
   	padding: 30px;
  	background-color: rgb(60%,40%,40%);
