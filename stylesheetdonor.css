@@ -64,10 +64,8 @@ body{
      box-shadow: 0 0 9px 4px black;
      margin-left: 100px;
      margin-right: 300px;
-     margin-bottom:100px;
-     margin-top: 55px;
-
-  	padding: 16px;
+     
+   	padding: 16px;
  	background-color: rgb(60%,40%,40%);
  }
   form #heading {
@@ -91,29 +89,23 @@ body{
      background-color: green;
  }
  .schedulebutton{
-    display: block;
-    margin-top: 0px;
+  margin-left: 20%;
     background-color: #660000;
     color: white;
     font-size: 40;
-    float:right;
-    margin-left: 600px;
-    margin-right: 100px;
     border:2px solid black;
     border-radius: 3px;
-  box-shadow: 0 0 1px 1px; 
-  width:500px;
-  height:60px;
-  text-align: center;
-
- }
+    box-shadow: 0 0 1px 1px; 
+    width:500px;
+    height:60px;
+    text-align: center;
+}
  .main
    {
        float:left;
-	   height:700px;
- 	width:650px;
-	 margin-top: 50px;
-  	border: 2px solid black;
+	    height:700px;
+ 	    width:650px;
+	    border: 2px solid black;
     border-radius: 0;
     box-shadow: 0 0 10px 4px black;
     margin-left: 60px;
@@ -172,7 +164,7 @@ input[type="radio"]{
 	text-align: center;
 }
 .footer
-   { margin-top: 110%;
+   {
     padding: 30px;
     margin-inline: 20px;
     background-image: linear-gradient(rgb(248, 209, 209), rgb(247, 190, 190));
