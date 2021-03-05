@@ -2,7 +2,7 @@ body{
 	color : black ;
 	background-color: rgb(245,133,133);
 }
- #heading{
+ .heading{
  	text-align: center;
  }
   #image1,#image2, #image3,#image4{
@@ -10,4 +10,6 @@ body{
  	border: 2px solid black;
     border-radius: 0;
     box-shadow: 0 0 10px 4px black;
+    width:80%;
+    margin-left: 10%;
  }
