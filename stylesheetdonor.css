@@ -119,12 +119,20 @@ body{
     margin-left: 60px;
    }
  
- input[type="text"],input[type="number"],input[type="email"],input[type="number"]{
- 	width: 60%;
+ input[type="text"],input[type="number"],input[type="email"]{
+ 	width: 90%;
   	padding: 15px;
  	margin: 5px 0 22px 0;
   	border-radius: 3px; 
   	background: #ffcccc;
+ }
+ input[type="number"]{
+  width: 60%;
+    padding: 15px;
+  margin: 5px 0 22px 0;
+    border-radius: 3px; 
+    background: #ffcccc;
+
  }
 #age{
 	width: 15%;
@@ -140,16 +148,21 @@ input[type="radio"]{
 	border-radius: 3px;
 	box-shadow: 0 0 1px 1px; 
 	background: #ffcccc;
+  width:90%;
 }
 #bloodgroup{
 	border-radius: 3px;
 	box-shadow: 0 0 1px 1px; 
 	background: #ffcccc;
+  height:50px;
+  width:10%;
 }
 #bankname{
 	border-radius: 3px;
 	box-shadow: 0 0 1px 1px; 
 	background: #ffcccc;
+  width:90%;
+  height:50px;
 }
 #quote{
 	font-family: georgia,serif;
