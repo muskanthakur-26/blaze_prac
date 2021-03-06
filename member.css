@@ -63,7 +63,7 @@ body {
     background-image: url("https://image.freepik.com/free-vector/people_24908-54449.jpg");
     /* height and width*/
     height: 100%;
-    width: 80%;
+    width: 20%;
     margin-left: 120px;
     /* Center and scale the image nicely */
     object-fit: cover;

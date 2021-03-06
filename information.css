@@ -68,9 +68,9 @@ body {
  .m{
 	 margin-left: 30%;
  }
- #image1,#image2{
+ #image2{
  	display: inline;
- 	margin-left: 290px;
+ 	margin-left: 25%;
  	height:70%;
  	width:50%;
  	display:flex;
@@ -78,4 +78,14 @@ body {
     border-radius: 0;
     box-shadow: 0 0 10px 4px black;
     
+ }
+ #image1{
+ 	display: inline;
+ 	margin-left: 30%;
+ 	height:60%;
+ 	width:40%;
+ 	display:flex;
+ 	border: 2px solid black;
+    border-radius: 0;
+    box-shadow: 0 0 10px 4px black;
  }
