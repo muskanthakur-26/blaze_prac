@@ -73,8 +73,8 @@ body{
      border-radius: 5px;
      box-shadow: 0 0 9px 4px black;
      display:block;
-     margin-left: 200px;
-     margin-right: 200px;
+     margin-left: 400px;
+     margin-right: 400px;
     
      margin-top: 55px;
   	padding: 30px;
@@ -115,3 +115,23 @@ body{
     border-radius: 3px; 
     background: #ffcccc;
  }
+ #bankname{
+    width: 60%;
+    padding: 15px;
+  margin: 5px 0 22px 0;
+    border-radius: 3px; 
+    background: #ffcccc;
+    width:90%;
+ }
+  .locationbutton{
+    margin-left: 40%;
+    background-color: #660000;
+    color: white;
+    font-size: 40;
+    border:2px solid black;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 1px; 
+    width:500px;
+    height:60px;
+    text-align: center;
+}
