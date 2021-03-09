@@ -41,7 +41,7 @@ body {
     font-size: 30px;
     text-align: center;
     height: 80px;
-    width: 100%;
+    width: 90%;
     border-radius: 15px;
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
@@ -69,19 +69,18 @@ body {
  #heading{
  	text-align: center;
  }
+ .c{
+	display: inline;
+ }
  .container{
 	
 	 font-size: 25;
      border: 3px solid #f1f1f1;
      border-radius: 5px;
      box-shadow: 0 0 9px 4px black;
-     display:block;
-     margin-left: 400px;
-     margin-right: 400px;
-     margin-bottom:100em;
-     margin-top: 55px;
-    position: absolute;
-  	padding: 16px;
+         margin-left: 300px;
+     margin-right: 300px;
+       	padding: 16px;
  	background-color: rgb(60%,40%,40%);
  }
   button {
@@ -120,6 +119,6 @@ body {
  	font-family: georgia,serif;
  	font-size:20;
  	text-align: center;
- 	margin-right: 30px;
-
- }
+   margin-left: 20px;
+   margin-right: 20px;
+ 	 }
