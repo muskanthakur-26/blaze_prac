@@ -1,6 +1,7 @@
 body {
 font-family: montserrat;
  background-color: rgb(245, 233, 233);
+ 
 }
 .logo{  
     position: absolute;
@@ -29,20 +30,18 @@ font-family: montserrat;
 }
 
 .bgr{ 
-  
+
+  background-image: url("volunteers-woman-man-donating-blood_262189-25.jpg");
     opacity: 0.9;
-    object-fit: cover;
-    /* Full height */
-    height:1000px;
-    margin-left: 140px;
-    width: 1000px; 
-    margin-top: 10px;
-    border-radius: 30px;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+      /* Set a specific height */
+    height: 900px;
+    width: 1000px;
+object-fit: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
     animation-name: example;
     animation-duration: 2s;  
     animation-fill-mode: forwards;
@@ -142,33 +141,7 @@ font-size: 25px;
      
    
    }
-   .bgimg
-    {    
-      
-     /* The image used */
-  background-image: url("volunteers-woman-man-donating-blood_262189-25.jpg");
-  opacity: 0.9;
-  object-fit: cover;
-  /* Full height */
-  height: 80%;
-  width: 100%; 
-  margin-top: 10px;
-  border-radius: 30px;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-    }
-    .bgtxt
-    {
-    
-    text-align: right;  
-        color:rgb(172, 235, 243);
-        top:340px;
-        left:50px;
-        font-size: large;
-    }     
+       
    .footer
    {
     padding: 30px;
