@@ -29,28 +29,36 @@ font-family: montserrat;
 }
 
 .bgr{ 
-    background-image: url("https://image.freepik.com/free-vector/volunteers-woman-man-donating-blood-blood-donor-charity_262189-61.jpg");
-    position: relative;
-    background-attachment: fixed;
+    /* The image used */
+ position: relative;
+ 
+  opacity: 0.9;
+  display:inline-block;
     
-    
-    background-size: cover;
+    height: 600px;
+    width: 90%;
 
+  
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
     animation-name: example;
     animation-duration: 2s;  
     animation-fill-mode: forwards;
-    height: 500px;
-    width: 90%;
+   
 }
 @keyframes example
 {
   from {left: 0px;}
-  to {left: 90px;}
+  to {left: 50px;}
   }
   @keyframes examp2
 {
   from {left: 5px;}
-  to {left: 100px;}
+  to {left: 50px;}
   }
 .navbar a{
         color: white;
@@ -136,7 +144,33 @@ font-size: 25px;
      
    
    }
-   
+   .bgimg
+    {    
+      
+     /* The image used */
+  background-image: url("volunteers-woman-man-donating-blood_262189-25.jpg");
+  opacity: 0.9;
+  object-fit: cover;
+  /* Full height */
+  height: 80%;
+  width: 100%; 
+  margin-top: 10px;
+  border-radius: 30px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+    .bgtxt
+    {
+    
+    text-align: right;  
+        color:rgb(172, 235, 243);
+        top:340px;
+        left:50px;
+        font-size: large;
+    }     
    .footer
    {
     padding: 30px;
