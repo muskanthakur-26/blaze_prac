@@ -85,6 +85,7 @@ body {
        margin-left: 10%;
        margin-right: 10%;
         /* box and borders */
+        padding: 10px;
        border: 0.1px solid;
        box-shadow: 3px 3px rgb(16, 20, 24);
        justify-content: space-evenly;

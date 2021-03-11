@@ -29,22 +29,20 @@ font-family: montserrat;
 }
 
 .bgr{ 
-    /* The image used */
- position: relative;
- 
-  opacity: 0.9;
-  display:inline-block;
-    
-    height: 600px;
-    width: 90%;
-
   
-  
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+    opacity: 0.9;
+    object-fit: cover;
+    /* Full height */
+    height:1000px;
+    margin-left: 140px;
+    width: 1000px; 
+    margin-top: 10px;
+    border-radius: 30px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     animation-name: example;
     animation-duration: 2s;  
     animation-fill-mode: forwards;
@@ -180,8 +178,9 @@ font-size: 25px;
     display:inline-block;
     font-size: 30px;
     text-align: center;
+    margin-left: 100px;
     height: 80px;
-    width: 100%;
+    width: 80%;
     border-radius: 15px;
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
