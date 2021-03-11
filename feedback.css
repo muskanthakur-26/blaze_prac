@@ -70,16 +70,16 @@ body {
  	text-align: center;
  }
  .c{
-	display: inline;
+	display: inline-block;
  }
  .container{
-	
+	margin-left: 30px;
 	 font-size: 25;
      border: 3px solid #f1f1f1;
      border-radius: 5px;
      box-shadow: 0 0 9px 4px black;
-         margin-left: 300px;
-     margin-right: 300px;
+     margin-top: 50px;
+        width: 50%;
        	
  	background-color: rgb(60%,40%,40%);
  }
