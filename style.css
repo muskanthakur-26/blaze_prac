@@ -169,10 +169,10 @@ font-size: 25px;
 .fling-minislide img:nth-child(2){animation-delay:10s;}
 .fling-minislide img:nth-child(1){animation-delay:15s;}
  .Sponsorbutton{
-   margin-left: 40%;
+    margin-left: 40%;
     background-color: #660000;
     color: white;
-    font-size: 100;
+    font-size: 40;
     border:2px solid black;
     border-radius: 3px;
     box-shadow: 0 0 1px 1px; 
